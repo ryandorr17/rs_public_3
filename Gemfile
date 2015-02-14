@@ -16,6 +16,11 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'bootstrap-sass',       '3.2.0.0'
 
+group :production do
+  gem 'rails_12factor', '0.0.2'
+  gem 'unicorn', '4.8.3'
+end
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
