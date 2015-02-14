@@ -5,8 +5,25 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid navbar-main-links">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right" id="menu">
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Our Methods</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 <%= yield %>
 
