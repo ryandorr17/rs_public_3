@@ -3,6 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+// site bg
+$services-bg: #777;
+// story-bg
+// methods-bg
+// team-bg
+// contact-bg
+
+
 body{
 
 }
@@ -13,4 +21,45 @@ body{
 // main image
 
 .main-image {
+}
+
+
+
+
+// services
+
+.services{
+  background-color: $services-bg;
+}
+
+.service-offering{
+
+
+  h3{
+    text-align: center;
+  }
+}
+
+
+.story-quote{
+  width: 30%;
+  background-image: image-url("left_quote.png");
+  background-repeat:no-repeat;
+  margin-left: 10%;
+  margin-right: 5%;
+  border-right: 3px solid #bbb;
+  p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #999;
+  }
+}
+
+.story-text{
+  padding: 5%;
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #999;
+  }
 }
