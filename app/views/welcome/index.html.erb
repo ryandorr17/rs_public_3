@@ -8,24 +8,24 @@
 
 
 <!-- our services -->
-<div class="services">
+<div class="services" id="services">
   <div class="container">
     <h1>Our Services</h1>
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
         <div class="row">
           <div class="col-sm-4 service-offering">
-            <%= image_tag "computer.png", alt: "Computer Icon",  class: "img-responsive"  %>
+            <%= image_tag "computer.jpg", alt: "Computer Icon",  class: "img-responsive"  %>
             <h3>Web</h3>
             <p>Here is a bunch of text about our web services</p>
           </div>
           <div class="col-sm-4 service-offering">
-            <%= image_tag "phone.png", alt: "Phone Icon",  class: "img-responsive"  %>
+            <%= image_tag "phone.jpg", alt: "Phone Icon",  class: "img-responsive"  %>
             <h3>Mobil</h3>
             <p>Here is a bunch of text about our mobil services</p>
           </div>
           <div class="col-sm-4 service-offering">
-            <%= image_tag "person.png", alt: "Person Icon",  class: "img-responsive"  %>
+            <%= image_tag "person.jpg", alt: "Person Icon",  class: "img-responsive"  %>
             <h3>Consulting</h3>
             <p>Here is a bunch of text about our consulting services</p>
           </div>
@@ -38,7 +38,7 @@
 
 <!-- our story -->
 
-<div class="story">
+<div class="story" id="story">
   <div class="container">
     <h1>Our Story</h1>
     <div class="story-quote pull-left">
@@ -52,9 +52,102 @@
         Vel an argumentum cotidieque, an suas accusata definitionem vix. Sit iudico mnesarchum ut, te quo quis quodsi argumentum, ad his vidit labitur suscipit. Sea vide iriure ut. Summo ubique utamur no his, per te denique conclusionemque, est decore melius no. Te novum melius mei.
         Usu amet eruditi dignissim eu, enim adhuc definiebas nec ex. Ne mel alia temporibus instructior. Ei pro alienum suscipit. Nec constituto interesset te, id congue malorum pri. Libris numquam vim in.
       </p>
-
+      <div>
+        <ul class="story-features">
+          <li>No HR</li>
+          <li>No Technical Silos</li>
+        </ul>
+      </div>
+      <p class="text-justify">
+        This is the rest of the information about our story. There are a bunch of compelling things in here
+        that we really need to tell you.
+      </p>
     </div>
-
-
   </div>
 </div>
+
+
+<div class="methods" id="methods">
+  <div class="container">
+    <h1>Our Methods</h1>
+    <div class="row">
+      <div class="col-sm-5 col-sm-offset-6">
+        <div class="method-callout">
+          <p>While we appraoch each new project as a clean slate with the oppurtunity to design for the unique needs
+            of the situation, we generally adhere to the following principles.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-sm-offset-2 methods-content">
+        <%= image_tag "discover.jpg", alt: "Search Icon",  class: "img-responsive img-circle"  %>
+        <h3>Discover</h3>
+        <p>
+          Processes; Background Info; Customers; Users
+        </p>
+      </div>
+      <div class="col-sm-2 methods-content">
+        <%= image_tag "design.jpg", alt: "Design Icon",  class: "img-responsive img-circle"  %>
+        <h3>Design</h3>
+        <p>
+          UX; IA; Wireframe
+        </p>
+      </div>
+      <div class="col-sm-2 methods-content">
+        <%= image_tag "create.jpg", alt: "Code Icon",  class: "img-responsive img-circle"  %>
+        <h3>Create</h3>
+        <p>
+          Code; Test; Check; Repeat
+        </p>
+      </div>
+      <div class="col-sm-2 methods-content">
+        <%= image_tag "deliver.jpg", alt: "Checkmark Icon",  class: "img-responsive img-circle"  %>
+        <h3>Deliver</h3>
+        <p>
+          Document; Implement; Assist; Guarantee
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- our team -->
+<div class="team" id="team">
+  <div class="container">
+    <h1>Our Team</h1>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <div class="col-sm-4 service-offering">
+            <%= image_tag "paul.jpg", alt: "Ari Perez",  class: "img-responsive img-circle"  %>
+            <h3>Ari Perez</h3>
+            <p>
+              After college, Ari spent six years as a Communications Officer in the US Army. He has since spent time in leading consulting firms and a small business building invaluable client and Program Management skills. His latest move to Refocus Studios allows him the opportunity to bring all his experience together for the purpose of crafting software solutions that meet the demands of today's rapidly evolving business landscape.
+            </p>
+          </div>
+          <div class="col-sm-4 service-offering">
+            <%= image_tag "paul.jpg", alt: "Paul Bishop",  class: "img-responsive img-circle"  %>
+            <h3>Paul Bishop</h3>
+            <p>
+              Paul is a self-starter who tirelessly works to solve any challenge placed in his way. After spending nine years as a US Army Communications officer, he has turned his entire focus to his newest challenge, bringing success to the clients of Refocus Studios. His US Army experience and engineering background provides Refocus Studios with extensive experience in developing unique solutions to the technical problems today's users encounter.
+            </p>
+          </div>
+          <div class="col-sm-4 service-offering">
+            <%= image_tag "ryan.jpg", alt: "Ryan Dorr",  class: "img-responsive img-circle"  %>
+            <h3>Ryan Dorr</h3>
+            <p>
+              Ryan has a passion for Analytics and software development which is evident in everything he does. After years earning his stripes working for some of the top consulting firms in the US, he made it a personal goal to provide our clients with someone who can both understand management challenges and code platforms to help overcome them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact us -->
+<div class="contact" id="contact">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <div class="row">

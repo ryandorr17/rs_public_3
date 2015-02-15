@@ -4,17 +4,24 @@
 
 
 // site bg
-$services-bg: #777;
-// story-bg
-// methods-bg
-// team-bg
-// contact-bg
+$services-bg: #dcdcdc;
+$story-bg: #f5f5f5;
+$methods-bg: #e0f8ff;
+$team-bg: #ffffff;
+$contact-bg: #5e49ff;
 
 
 body{
 
 }
 
+h1{
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-left: 8%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
 
 
 
@@ -41,6 +48,12 @@ body{
 }
 
 
+// story
+
+.story{
+  background-color: $story-bg;
+}
+
 .story-quote{
   width: 30%;
   background-image: image-url("left_quote.png");
@@ -61,5 +74,50 @@ body{
     font-size: 1.5em;
     line-height: 1.5em;
     color: #999;
+  }
+}
+
+.story-features{
+  text-decoration: none;
+  font-size: 2em;
+  color: #1c104e;
+  margin-left: 15%;
+}
+
+
+// methods
+
+.methods{
+  background-color: $methods-bg;
+}
+
+.method-callout{
+  text-align: right;
+  font-size: 1.5em;
+  color: #999;
+  margin-bottom: 10%;
+
+}
+
+.methods-content{
+  img{
+
+  }
+}
+
+// our team
+
+.team{
+  background-color: $team-bg;
+}
+
+
+
+// contact us
+
+.contact{
+  background-color: $contact-bg;
+  h1, p {
+    color: #fff;
   }
 }
